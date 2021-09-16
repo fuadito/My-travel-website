@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-padding-top: 22px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: orange;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 30px;
+    font-style: italic;
+    float: left;
+    color: purple;
+    font-weight: bolder;
+    margin-top: -100px;
+}
+
+.header .search-form input {
+    background: white;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    font-size: 16px;
+    float: right;
+}
+
+.navbar a {
+    height: 70px;
+    width: 100px;
+    color: blue;
+    float: left;
+    margin-top: 85px;
+    margin-left: 25px;
+    font-size: 22px;
+    font-style: oblique;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.search-form {
+    width: 220px;
+    height: 35px;
+    border: 2px solid blue;
+}
+
+.icons {
+    padding-right: 5px;
+    color: blue;
+}
